@@ -1,0 +1,50 @@
+
+
+
+.PhotoAcceuil{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{ /* couleur du fond du site */
+    background-color: rgb(22, 13, 53);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{ /* texte explicatif */
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h2{ /* couleur des sous titres */
+     color: rgb(33, 14, 207);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+h1{ /* titre */
+     color: rgb(255, 255, 255);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+.PhotoBonus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PhotoPerso{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Titre{ /* centrage du titre */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
